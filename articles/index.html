@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en-GB" data-theme="light">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <title data-i18n="page.title">AI Studies</title>
+        <meta name="description" data-i18n="page.description" />
+
+        <link rel="icon" href="./img/favico.png" />
+        <link rel="stylesheet" href="./css/main.css" />
+
+        <!-- i18n -->
+        <script src="./js/i18n-data.js" defer></script>
+        <script src="./js/i18n.js" defer></script>
+
+        <!-- Global runtime -->
+        <script src="./js/main.js" defer></script>
+    </head>
+    <body>
+
+        <!-- ================= HEADER ================= -->
+        <header class="top-bar">
+            <div class="container">
+
+                <a href="/portfolio/" class="brand">Eduardo45MP.dev</a>
+
+                <nav>
+                    <ul>
+                        <li><a href="#hero" data-i18n="nav.home">Home</a></li>
+                        <li><a href="#projects" data-i18n="nav.projects">Projects</a></li>
+                        <li><a href="#certifications" data-i18n="nav.certifications">Certifications</a></li>
+                        <li><a href="#about" data-i18n="nav.about">About</a></li>
+                        <li><a href="#contact" data-i18n="nav.contact">Contact</a></li>
+                    </ul>
+                </nav>
+
+                <div style="display:flex; gap:0.6rem;">
+                    <div class="language-switcher">
+                        <button data-lang="pt-BR">PT</button>
+                        <span>|</span>
+                        <button data-lang="en-GB">EN</button>
+                    </div>
+                    <button class="theme-toggle" aria-label="Toggle theme"></button>
+                </div>
+            </div>
+        </header>
+
+        <!-- ================= MAIN ================= -->
+        <main>
+            <!-- ===== HERO / INTRO ===== -->
+            <section class="hero">
+                <div class="container hero-grid">
+                    <div>
+                        <span class="badge" data-i18n="hero.badge">Home</span>
+                        <h1 data-i18n="hero.title">AI Studies & Applied Research</h1>
+                            <p data-i18n="hero.subtitle">
+                            Research, certifications and applied projects in Artificial Intelligence.
+                            </p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ===== PROJECTS ===== -->
+            <section id="projects" class="section">
+                <div class="container">
+                    <header class="section-header">
+                        <span data-i18n="projects.badge">Projects</span>
+                        <h2 data-i18n="projects.title">Featured Projects</h2>
+                            <p data-i18n="projects.description">
+                            Practical applications and experiments.
+                            </p>
+                    </header>
+
+                    <div class="cards-grid">
+                        <!-- Cards de projetos -->
+                    </div>
+                </div>
+            </section>
+
+            <!-- ===== CERTIFICATIONS ===== -->
+            <section id="certifications" class="section">
+                <div class="container">
+                    <header class="section-header">
+                        <span data-i18n="certifications.badge">Certifications</span>
+                        <h2 data-i18n="certifications.title">Professional Certifications</h2>
+                        <p data-i18n="certifications.description">
+                        Continuous learning and professional validation.
+                        </p>
+                    </header>
+
+                    <div class="cards-grid">
+                        <!-- Certification Card -->
+                        <article class="card">
+                            <h3>IBM Data Science Professional Certificate</h3>
+                            <p>Coursera</p>
+                            <div class="metadata">
+                                <span>Machine Learning</span>
+                                <span>Data Science</span>
+                            </div>
+                        </article>
+
+                        <!-- Outras certificações -->
+                    </div>
+                </div>
+            </section>
+
+            <!-- ===== ABOUT ===== -->
+            <section id="about" class="section">
+                <div class="container">
+                    <header class="section-header">
+                        <span data-i18n="about.badge">About</span>
+                        <h2 data-i18n="about.title">About Me</h2>
+                    </header>
+
+                    <p data-i18n="about.description">
+                        Software developer focused on AI, automation and applied research.
+                    </p>
+                </div>
+            </section>
+
+            <!-- ===== CONTACT SECTION ===== -->
+            <section id="contact" class="section">
+                <div class="container">
+                <div class="contact-card">
+                    <!-- Badge -->
+                    <span class="badge" aria-hidden="true" data-i18n="contact.badge">Let's create together</span>
+
+                    <!-- Headline -->
+                    <h2 data-i18n="contact.title">Open to collaborations and new partnerships</h2>
+
+                    <!-- Description -->
+                    <p data-i18n="contact.description">
+                    Lorem ipsum dolet.
+                    </p>
+
+                    <!-- Contact details -->
+                    <ul class="contact-list">
+                    <li>
+                        <a href="mailto:eduardopeixoto45@outlook.com">
+                        ✉️ <span data-i18n="contact.items.email">eduardopeixoto45@outlook.com</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="tel:+5581999350771">
+                        📱 <span data-i18n="contact.items.phone">+55 81 99935-0771 (whatsapp only)</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/eduardo-peixoto45/" target="_blank" rel="noopener">
+                        💼 <span data-i18n="contact.items.linkedin">linkedin.com/in/eduardo-peixoto45</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/eduardo45MP" target="_blank" rel="noopener">
+                        🐙 <span data-i18n="contact.items.github">github.com/eduardo45MP</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://eduardo45mp.github.io/portfolio" target="_blank" rel="noopener">
+                        🌍 <span data-i18n="contact.items.site">eduardo45mp.github.io/portfolio</span>
+                        </a>
+                    </li>
+                    </ul>
+                </div>
+                </div>
+            </section>
+        </main>
+
+    <!-- ========== FOOTER ========== -->
+    <footer>
+      <div class="container">
+        <!-- Copyright -->
+        <div data-i18n="footer.copyright" data-i18n-html="true">
+          © <span id="year">2026</span> Eduardo Peixoto · eduardo45MP.dev
+        </div>
+
+        <!-- Links to documentation files -->
+        <div data-i18n="footer.docs" data-i18n-html="true">
+          Full documentation available in
+          <a href="./../docs/en-GB/vision.md">Visão</a> and
+          <a href="./../docs/en-GB/roadmap.md">Roadmap</a>.
+        </div>
+      </div>
+    </footer>
+
+    <!-- Main JS file (interactivity, dynamic year, etc.) -->
+    <script src="./js/i18n-data.js"></script>
+    <script src="./js/i18n.js"></script>
+    <script src="./js/main.js"></script>
+    </body>
+</html>
