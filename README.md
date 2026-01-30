@@ -1,31 +1,34 @@
 # 🤖 AI_studies
 
-Repositório dedicado a **experimentos, estudos e protótipos em Inteligência Artificial**, cobrindo desde fundamentos até aplicações práticas.
+A repository dedicated to **experiments, studies, and prototypes in Artificial Intelligence**, covering everything from fundamentals to practical applications.
 
 ---
 
-## 📌 Objetivos
-- Consolidar aprendizados em **Machine Learning e Deep Learning**.
-- Testar bibliotecas e frameworks modernos.
-- Criar protótipos rápidos para exploração de ideias em **IA generativa, PNL, visão computacional e predição**.
+## 📌 Objectives
+- Consolidate learning in **Machine Learning and Deep Learning**.
+- Test modern libraries and frameworks.
+- Create rapid prototypes to explore ideas in **generative AI, NLP, computer vision, and prediction**.
 
 ---
 
-## 📂 Estrutura Proposta
+## 📂 Proposed Structure
 ```
 
 AI_studies/
-├── notebooks/       # Jupyter Notebooks de experimentos
-├── datasets/        # Bases de dados usadas nos estudos
-├── models/          # Modelos treinados e checkpoints
-├── scripts/         # Utilitários em Python
-└── README.md        # Este documento
+├── article/         # Articles complementary to the portfolio¹
+├── notebooks/       # Jupyter Notebooks for experiments
+├── datasets/        # Datasets used in studies
+├── models/          # Trained models and checkpoints
+├── scripts/         # Python utilities
+├── index.html       # Base for articles viewing
+├── README.pt.md     # This document (Portuguese version)
+└── README.pt.md     # This document
 
 ```
-
+[portfolio¹](https://eduardo45mp.github.io/portfolio/)
 ---
 
-## 🧰 Stack Prevista
+## 🧰 Planned Stack
 - Python 3.10+
 - Jupyter / Google Colab
 - PyTorch / TensorFlow
@@ -34,18 +37,18 @@ AI_studies/
 
 ---
 
-## 🚀 Exemplos Futuramente
-- Classificação de texto.
-- Modelos de recomendação.
-- Fine-tuning de LLMs pequenos.
-- Análise preditiva de séries temporais.
-- Geração de imagens com difusão estável.
+## 🚀 Future Examples
+- Text classification.
+- Recommendation systems.
+- Fine-tuning small LLMs.
+- Predictive time series analysis.
+- Image generation with stable diffusion.
 
 ---
 
-## 📜 Licença
-MIT – livre para uso e modificação.
+## 📜 License
+MIT – free for use and modification.
 
 ---
 
-✨ Criado por **Eduardo45MP.dev** como repositório aberto de estudos em IA.
+✨ Created by **Eduardo45MP.dev** as an open repository for AI studies.
